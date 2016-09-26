@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html, body {
+  height: auto; }
+
+body {
+  text-align: center;
+  padding: 50px;
+  background-color: #ccc; }
+
+.iPhone7 {
+  display: inline-block;
+  vertical-align: middle;
+  /*  * 为兼容ie写法 */
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative; }
+  .iPhone7 .steel_band {
+    position: relative;
+    width: 440px;
+    height: 898px;
+    padding: 3px;
+    background-color: #111111;
+    border-radius: 53px; }
+  .iPhone7 .plastic_band {
+    width: 428px;
+    height: 888px;
+    padding: 6px;
+    border-radius: 48px;
+    background: -webkit-linear-gradient(#adadad, #a2a2a2, #979797);
+    background: linear-gradient(#adadad, #a2a2a2, #979797);
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 1px rgba(0, 0, 0, 0.5); }
+  .iPhone7 .glass_face {
+    position: relative;
+    width: 428px;
+    top: -3px;
+    height: 895px;
+    overflow: hidden;
+    background: -webkit-linear-gradient(#000000, #090909);
+    background: linear-gradient(#000000, #090909);
+    border-radius: 48px;
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.15), -1px -1px 0 rgba(0, 0, 0, 0.5); }
+  .iPhone7 .camera {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50%;
+    margin-left: -68px;
+    height: 9px;
+    width: 9px;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.25);
+    background: -webkit-radial-gradient(5px 5px, #1b1b1b, #343434);
+    background: radial-gradient(5px 5px, #1b1b1b, #343434);
+    background-position: top left; }
+    .iPhone7 .camera:after {
+      display: block;
+      height: 8px;
+      width: 8px;
+      border-radius: 4px;
+      box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+      background: -webkit-radial-gradient(1px 1px, #3c2b90 25%, rgba(60, 43, 144, 0.75) 50%), -webkit-radial-gradient(1px 1px, rgba(43, 93, 144, 0.75) 25%, rgba(43, 93, 144, 0) 50%), -webkit-radial-gradient(1px 1px, rgba(43, 93, 144, 0.75) 25%, rgba(43, 93, 144, 0) 50%), -webkit-radial-gradient(#07131b 40%, #1b3d70 60%);
+      background: radial-gradient(1px 1px, #3c2b90 25%, rgba(60, 43, 144, 0.75) 50%), radial-gradient(1px 1px, rgba(43, 93, 144, 0.75) 25%, rgba(43, 93, 144, 0) 50%), radial-gradient(1px 1px, rgba(43, 93, 144, 0.75) 25%, rgba(43, 93, 144, 0) 50%), radial-gradient(#07131b 40%, #1b3d70 60%);
+      background-position: top left, center left, center, right center;
+      content: ""; }
+  .iPhone7 .speaker {
+    position: absolute;
+    z-index: 2;
+    top: 48px;
+    left: 50%;
+    margin-left: -37px;
+    width: 74px;
+    height: 6px;
+    padding: 5px;
+    border-radius: 8px;
+    background: -webkit-radial-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0)) no-repeat, -webkit-linear-gradient(#000000 8px, #444444 18px);
+    background: radial-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0)) no-repeat, linear-gradient(#000000 8px, #444444 18px);
+    background-size: 7px 7px, 100% 100%;
+    background-position: bottom right, center; }
+    .iPhone7 .speaker:after {
+      display: block;
+      width: 74px;
+      height: 6px;
+      border-radius: 6px;
+      background: -webkit-linear-gradient(45deg, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000), #888;
+      background: linear-gradient(45deg, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000), #888;
+      background-size: 2px 2px;
+      box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.75), inset 0 0 2px rgba(0, 0, 0, 0.5);
+      content: ""; }
+  .iPhone7 .home_button {
+    position: absolute;
+    z-index: 1;
+    bottom: 23px;
+    left: 50%;
+    margin-left: -38px;
+    width: 76px;
+    height: 76px;
+    border-radius: 76px;
+    background: -webkit-radial-gradient(circle closest-side, #484848, #8a8a8c 50%, #484848 60%); }
+    .iPhone7 .home_button:after {
+      position: absolute;
+      top: 3px;
+      left: 50%;
+      z-index: 2;
+      margin-left: -35px;
+      height: 70px;
+      width: 70px;
+      border-radius: 35px;
+      background: #000000;
+      content: ""; }
+  .iPhone7 .screen {
+    position: absolute;
+    top: 102px;
+    left: 50%;
+    margin-left: -194px;
+    width: 375px;
+    height: 667px;
+    padding: 5px;
+    border: 2px solid #141414;
+    border-radius: 5px;
+    background: #000000; }
+  .iPhone7 .mute_rocker {
+    position: absolute;
+    top: 121px;
+    right: 100%;
+    width: 3px;
+    height: 29px;
+    border: 1px solid #595959;
+    border-right: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: -webkit-linear-gradient(#323232 5%, #323233 20%, #323232 75%);
+    background: linear-gradient(#323232 5%, #323233 20%, #323232 75%); }
+  .iPhone7 .volume {
+    position: absolute;
+    right: 100%;
+    width: 3px;
+    height: 58px;
+    border: 1px solid #595959;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: -webkit-linear-gradient(#323232 5%, #323233 20%, #323232 75%);
+    background: linear-gradient(#323232 5%, #323233 20%, #323232 75%); }
+    .iPhone7 .volume.up {
+      top: 188px; }
+    .iPhone7 .volume.down {
+      top: 270px; }
+  .iPhone7 .sleep_wake {
+    position: absolute;
+    left: 100%;
+    top: 188px;
+    width: 3px;
+    height: 68px;
+    border: 1px solid #595959;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background: -webkit-linear-gradient(#323232 5%, #323233 20%, #323232 75%);
+    background: linear-gradient(#323232 5%, #323233 20%, #323232 75%); }

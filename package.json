@@ -1,0 +1,18 @@
+{
+  "name": "iphone7",
+  "version": "1.0.0",
+  "description": "a package for iphone7",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-watch": "^4.3.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luoixie",
+  "license": "ISC"
+}
